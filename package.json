@@ -1,8 +1,10 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
+  "homepage": "http://utkarshsaxena.surge.sh/",
   "private": true,
   "dependencies": {
+    "radium": "^0.19.5",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts-ts": "2.7.0"
@@ -11,7 +13,8 @@
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "deploy": "yarn run build && surge --domain utkarshsaxena.surge.sh --project /Users/utkarshsaxena/Desktop/2017/my-portfolio/build"
   },
   "devDependencies": {
     "@types/jest": "^21.1.2",
