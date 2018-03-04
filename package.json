@@ -4,10 +4,10 @@
   "homepage": "http://utkarshsaxena.surge.sh/",
   "private": true,
   "dependencies": {
-    "radium": "^0.19.5",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-scripts-ts": "2.7.0"
+    "radium": "^0.22.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts-ts": "2.13.0"
   },
   "scripts": {
     "start": "react-scripts-ts start",
@@ -17,10 +17,11 @@
     "deploy": "yarn run build && surge --domain utkarshsaxena.surge.sh --project /Users/utkarshsaxena/Desktop/2017/my-portfolio/build"
   },
   "devDependencies": {
-    "@types/jest": "^21.1.2",
-    "@types/node": "^8.0.33",
-    "@types/react": "^16.0.10",
-    "@types/react-dom": "^16.0.1",
-    "prettier": "1.8.2"
+    "@types/jest": "^22.1.4",
+    "@types/node": "^9.4.6",
+    "@types/react": "^16.0.40",
+    "@types/react-dom": "^16.0.4",
+    "prettier": "1.11.1",
+    "typescript": "^2.7.2"
   }
 }
